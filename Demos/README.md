@@ -1,0 +1,1 @@
+Have put in a video demonstrating the TEC going up to 35 degrees celcius and TEC going down to 13 degrees celcius.
