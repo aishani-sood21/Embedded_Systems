@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IoT Sensor Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'dark-bg': '#0D1117',
+              'dark-card': '#161B22',
+              'dark-border': '#21262D',
+              'dark-text': '#E6EDF3',
+              'dark-text-secondary': '#8B949E',
+              'light-bg': '#F0F2F5',
+              'light-card': '#FFFFFF',
+              'light-border': '#E0E0E0',
+              'light-text': '#1C1E21',
+              'light-text-secondary': '#606770',
+              'accent': {
+                'DEFAULT': '#00f5d4',
+                'hover': '#00d9b8',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Vite will bundle React/ReactDOM from node_modules; remove conflicting UMD/importmap scripts. -->
+    <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <!-- Debug: initial content so we can tell if HTML is served but React didn't mount -->
+    <div id="root">
+      <div style="padding:16px; font-family:sans-serif; color:#555;">Loading dashboard… If this text stays, React didn’t mount. Check browser console.</div>
+    </div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

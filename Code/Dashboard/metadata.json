@@ -1,0 +1,5 @@
+
+{
+  "name": "IoT Sensor Dashboard",
+  "description": "A modern, responsive dashboard to visualize real-time sensor data from various sources, including embedded ThingSpeak charts. Features a sleek dark/light theme toggle and simulated live data updates."
+}
